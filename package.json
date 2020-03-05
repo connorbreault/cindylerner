@@ -1,0 +1,30 @@
+{
+  "name": "cindylerner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express-handlebars": "^3.1.0",
+    "express": "^4.17.1",
+    "mysql": "^2.17.1",
+    "mysql2": "^1.7.0",
+    "paypal-rest-sdk": "^1.8.1",
+    "sequelize": "^5.19.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/connorbreault/cindylerner.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/connorbreault/cindylerner/issues"
+  },
+  "homepage": "https://github.com/connorbreault/cindylerner#readme"
+}
