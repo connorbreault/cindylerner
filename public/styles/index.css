@@ -1,0 +1,80 @@
+.chipInDiv{
+    background: linear-gradient(to right, #0f5bb9, #a2c1e7)
+}
+.chipInDiv:hover{
+    background: linear-gradient(to bottom right, #449841, #97be96)
+}
+#chipInText{
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    line-height: 25px;
+    font-size: 11px;
+    letter-spacing: 4px
+}
+.navbar{
+    font-family: 'Paytone One', sans-serif;
+    padding: 0px
+}
+#navLogo{
+    width: 35%   
+}
+.nav-link{
+    color: #0f5bb9 !important
+}
+.nav-link:hover{
+    color: #449841 !important
+}
+#navDonate{
+    background: #0f5bb9;
+    border-radius: 0px;
+    padding: 5px 25px;
+}
+#navDonate:hover{
+    background: #449841
+}
+.dropdown-menu{
+    color: #0f5bb9 !important
+}
+.modal{
+    margin: 25px auto
+}
+#navModalContent{
+    background: #0f5bb9;
+    text-align: center;
+    font-family: 'Paytone One', sans-serif;
+    border-radius: 25px;
+    text-shadow: 2px 2px 2px #000000;
+}
+.dropdown-item{
+    text-shadow: none !important
+}
+#donateMain{
+    background: #449841;
+    border-radius: 0px;
+    padding: 5px 25px;
+    -webkit-box-shadow: 2px 2px 15px 1px rgba(0,0,0,0.25); 
+    box-shadow: 2px 2px 15px 1px rgba(0,0,0,0.25);
+}
+#donateMain:hover{
+    background: #0f5bb9
+}
+.ra{
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 5px 2px;
+    background: white;
+    color: #0f5bb9;
+    border: 1px black solid
+}
+@media (min-width: 576px){
+    .navbar{
+        padding: .5rem 1rem;
+    }
+    #navLogo{
+        width: 200px
+    }
+}
