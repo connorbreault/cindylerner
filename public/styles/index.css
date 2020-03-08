@@ -154,12 +154,12 @@
 .sa:hover{
     color: white
 }
-#SocialMediaRow{
+.SocialMediaRow{
     width: 70%;
     margin: auto
 }
-#SocialMediaRow > div {
-    padding: 0px 3px
+#cardRowIndex{
+    margin: auto;
 }
 
 /* RIGHT FOOTER */
@@ -325,6 +325,9 @@
     }
     .onTheIssuesIndexDiv{
         padding: 75px;
+    }
+    #cardRowIndex{
+        width: 70%;
     }
 }
 @media (min-width: 576px) and (max-width: 769px) { 
