@@ -14,7 +14,8 @@
 }
 .navbar{
     font-family: 'Paytone One', sans-serif;
-    padding: 0px
+    padding: 0px;
+    background: white;
 }
 #navLogo{
     width: 35%   
@@ -71,12 +72,51 @@
     border: 1px black solid
 }
 
+
+/* BOTTOM DONATE */
+.bottomDonate{
+    height: 300px;
+    background: url("/images/nav/CL_photo.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 150%
+}
+.bottomDonateContent{
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+    width: 90%;
+    margin: auto;
+    padding: 25px;
+}
+.bottomDonateInput{
+    padding: 20px 10px;
+    font-size: 15px;
+    font-family: 'Paytone One', sans-serif;
+}
+.bottomDonateInputDiv{
+    margin: 0px
+}
+#bottomDonateButton{
+    background: #82c980;
+    padding: 10px 55px;
+    margin: 20px auto;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    border-radius: 0px
+}
+
+
 /* FOOTERS */
+#footer{
+    padding-left: 0px
+}
 #leftFooter, #rightFooter{
     text-align: center;
     padding: 100px 20px;
 }
-/* LEFT FOOTEr */
+/* LEFT FOOTER */
 #leftFooter{
     background: #0f5bb9
 }
@@ -168,6 +208,26 @@
     #navLogo{
         width: 200px
     }
+
+    .bottomDonate{
+        height: 600px;
+        background-size: 100%
+    }
+    .bottomDonateContent{
+        width: 20%;
+        position: relative;
+        left: 150px;
+        top: 200px;
+        margin: inherit;
+        padding: inherit
+    }
+    .bottomDonateInputDiv{
+        margin: auto
+    }
+    .bottomDonateButton{
+        padding: 10px 85px
+    }
+
     #rightFooterInfo{
         margin: 50px auto
     }
