@@ -28,7 +28,7 @@
 #navDonate{
     background: #0f5bb9;
     border-radius: 0px;
-    padding: 5px 25px;
+    padding: 10px 40px;
 }
 #navDonate:hover{
     background: #449841
@@ -70,11 +70,109 @@
     color: #0f5bb9;
     border: 1px black solid
 }
+
+/* FOOTERS */
+#leftFooter, #rightFooter{
+    text-align: center;
+    padding: 100px 20px;
+}
+/* LEFT FOOTEr */
+#leftFooter{
+    background: #0f5bb9
+}
+.leftFooterButtons{
+    background: #6593ca;
+    width: 275px;
+    margin: 5px auto;
+    font-family: 'Paytone One', sans-serif;
+    letter-spacing: 2px;
+    border-radius: 0px
+}
+.leftFooterButtons:hover{
+    background: #76fff4
+}
+.sa{
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 5px 2px;
+    background: #0f5bb9;
+    color: rgba(255,255,255,.49);
+    border: solid 2px rgba(255,255,255,.49);
+}
+.sa:hover{
+    color: white
+}
+#footerSocialMediaRow{
+    width: 70%;
+    margin: auto
+}
+#footerSocialMediaRow > div {
+    padding: 0px 5px
+}
+
+/* RIGHT FOOTER */
+#rightFooter{
+    background: #0a4c9c
+}
+#footerNavbar{
+    width: 65%;
+    margin: auto;
+    font-family: 'Paytone One', sans-serif;
+}
+#footerNavbar > div {
+    padding: 0px 5px;
+}
+.footerNavbarLinks{
+    color: rgba(255,255,255,.76)
+}
+.footerNavbarLinks:hover{
+    color: white
+}
+
+#rightFooterInfo{
+    margin: 10px auto 50px auto
+}
+#rightFooterInfo > p {
+    color: rgba(255,255,255,.59);
+    font-family: 'Open Sans Condensed',Sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 5px;
+    letter-spacing: 1px
+}
+.rightFooterButtons{
+    margin: auto;
+    width: 65%;
+    font-family: 'Open Sans Condensed',Sans-serif;
+}
+.paidForBy{
+    border: 3px solid rgba(222,196,230,.23);
+    color: rgba(255,255,255,.73);
+    font-family: 'Open Sans Condensed',Sans-serif;
+    width: fit-content;
+    margin: 10px auto 30px auto;
+    padding: 10px 30px;
+    letter-spacing: 1px
+}
+.designBy{
+    letter-spacing: 3px;
+    font-family: 'Paytone One', sans-serif;
+    color: rgba(255,255,255,.3)
+}
 @media (min-width: 576px){
     .navbar{
         padding: .5rem 1rem;
     }
     #navLogo{
         width: 200px
+    }
+    #rightFooterInfo{
+        margin: 50px auto
+    }
+    .rightFooterButtons{
+        margin: auto;
+        width: 25%;
     }
 }
