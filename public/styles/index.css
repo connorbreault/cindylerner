@@ -155,7 +155,7 @@
     color: white
 }
 .SocialMediaRow{
-    width: 70%;
+    width: 90%;
     margin: auto
 }
 #cardRowIndex{
@@ -276,6 +276,26 @@
     border-radius: 0px;
     width: 100%;
 }
+.fromCampaignCardIndex{
+    height: 400px;
+    color: white;
+    font-size: 25px;
+    margin: 15px auto
+}
+.fromCampaignCardIndex:hover{
+    background: #82c980 !important
+}
+.fromCampaignCardText{
+    display: block;
+    display: -webkit-box;
+    max-width: 200px;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 45px 0px;
+    font-family: 'Paytone One', sans-serif;
+}
 
 
 @media (min-width: 576px){
@@ -284,6 +304,10 @@
     }
     #navLogo{
         width: 200px
+    }
+
+    .SocialMediaRow{
+        width: 70%;
     }
 
     .bottomInvolve{
