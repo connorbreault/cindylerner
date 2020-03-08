@@ -87,7 +87,7 @@
     letter-spacing: 1px;
     width: 90%;
     margin: auto;
-    padding: 25px;
+    padding: 20px;
 }
 .bottomDonateInput{
     padding: 20px 10px;
@@ -144,12 +144,12 @@
 .sa:hover{
     color: white
 }
-#footerSocialMediaRow{
+#SocialMediaRow{
     width: 70%;
     margin: auto
 }
-#footerSocialMediaRow > div {
-    padding: 0px 5px
+#SocialMediaRow > div {
+    padding: 0px 3px
 }
 
 /* RIGHT FOOTER */
@@ -201,6 +201,39 @@
     font-family: 'Paytone One', sans-serif;
     color: rgba(255,255,255,.3)
 }
+
+
+
+/* INDEX PAGE */
+.topImgResponsiveIndex{
+    background: url("/images/nav/CL_photo.jpg");
+    height: 200px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%
+}
+.topContentResponsiveIndexDiv{
+    background: #0a4c9c;
+    padding: 20px
+}
+.topContentResponsive{
+    width: 95%;
+    margin: auto;
+    color: white;
+    text-align: center
+}
+.meetCindyIndex{
+    text-align: center;
+    padding: 25px
+}
+#meetCindyIndexButton{
+    color: #0a4c9c;
+    border: 2px #0a4c9c solid;
+    border-radius: 0px;
+}
+
+
+
 @media (min-width: 576px){
     .navbar{
         padding: .5rem 1rem;
@@ -234,5 +267,14 @@
     .rightFooterButtons{
         margin: auto;
         width: 25%;
+    }
+    .meetCindyIndex{
+        width: 45%;
+        margin: auto
+    }
+}
+@media (min-width: 576px) and (max-width: 769px) { 
+    .bottomDonate{
+        background-size: 150%
     }
 }
