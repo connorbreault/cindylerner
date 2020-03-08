@@ -124,8 +124,29 @@
         </div>
     </div>
 
+    {{!-- DESKTOP IMG --}}
+    <div class="container-fluid d-none d-lg-flex" style="padding: 0px">
+        <div class="desktopTopIndex">
+            <div class="desktopTopContentIndex">
+                <h5 style="font-family: 'Carrois Gothic', sans-serif; letter-spacing: 2px">GET INVOLVED</h5>
+                <h1 style="font-family: 'Paytone One', sans-serif;">Moving Miami Forward</h1>
+                <div class="row top">
+                    <div class="col-8" style="padding: 0px">
+                        <input type="email" class="form-control" id="topEmailDesktopIndex" aria-describedby="emailHelp"
+                            placeholder="Email address" style="border-radius: 0px">
+                    </div>
+                    <div class="col-4" style="padding: 0px">
+                        <input type="text" class="form-control" id="topZipDesktopIndex" placeholder="Zip"
+                            style="border-radius: 0px">
+                    </div>
+                </div>
+                <button type="button" class="btn btn-lg text-white" id="topButtonDesktopIndex"
+                    style="font-family: 'Carrois Gothic', sans-serif; letter-spacing: 2px">GET INVOLVED</button>
+            </div>
+        </div>
+    </div>
 
-
+    {{!-- RESPONSIVE TOP IMG --}}
     <div class="container-fluid d-lg-none" style="padding: 0px">
         <div class="topImgResponsiveIndex"></div>
         <div class="topContentResponsiveIndexDiv">
@@ -134,15 +155,15 @@
                 <h1 style="font-family: 'Paytone One', sans-serif;">Moving Miami Forward</h1>
                 <div class="row top">
                     <div class="col-8" style="padding: 0px">
-                        <input type="email" class="form-control" id="topEmailIndex" aria-describedby="emailHelp"
-                            placeholder="Email address" style="border-radius: 0px">
+                        <input type="email" class="form-control" id="topEmailResponsiveIndex"
+                            aria-describedby="emailHelp" placeholder="Email address" style="border-radius: 0px">
                     </div>
                     <div class="col-4" style="padding: 0px">
-                        <input type="text" class="form-control" id="topZipIndex" placeholder="Zip"
+                        <input type="text" class="form-control" id="topZipResponsiveIndex" placeholder="Zip"
                             style="border-radius: 0px">
                     </div>
                 </div>
-                <button type="button" class="btn btn-lg text-white" id="topButtonIndex"
+                <button type="button" class="btn btn-lg text-white" id="topButtonResponsiveIndex"
                     style="font-family: 'Carrois Gothic', sans-serif; letter-spacing: 2px">GET INVOLVED</button>
                 <div class="row SocialMediaRow">
                     <div class="col"><a href="https://www.facebook.com/MayorCindyLerner/" class="fa sa fa-facebook"></a>
@@ -164,36 +185,111 @@
         </div>
     </div>
 
+    {{!-- MEET CINDY SECTION --}}
     <div class="meetCindyIndex">
-        <h2 style="font-family: 'Paytone One', sans-serif; color: #0a4c9c;">Meet Cindy Lerner</h2>
+        <h1 style="font-family: 'Paytone One', sans-serif; color: #0a4c9c;">Meet Cindy Lerner</h1>
         <p style="letter-spacing: 1px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam odio ipsa
             architecto numquam delectus
             consequuntur, sed corrupti non ut autem iure dolor eligendi! Hic, doloremque culpa obcaecati animi rem eum!
         </p>
         <a href="/meet_Cindy">
             <button type="button" class="btn btn-lg" id="meetCindyIndexButton"
-                style="font-family: 'Open Sans Condensed',Sans-serif;">Learn More &rarr;</button>
+                style="font-family: 'Paytone One', sans-serif;">Learn More &rarr;</button>
         </a>
+    </div>
+
+    {{!-- ON THE ISSUES SECTION --}}
+    <div class="container-fluid" style="padding: 0px">
+        <div class="row" id="onTheIssuesIndexRow">
+            <div class="col col-12 col-lg-6">
+                <iframe src="https://www.youtube.com/embed/g4UXYV-okFM" id="onTheIssuesIndexVideo"> </iframe>
+            </div>
+            <div class="col col-12 col-lg-6" id="onTheIssuesIndexContent">
+                <div class="onTheIssuesIndexDiv">
+                    <h4 style="font-family: 'Carrois Gothic', sans-serif; letter-spacing: 3px">PRIORITIES</h4>
+                    <h2 style="font-family: 'Paytone One' , sans-serif;">On the Issues</h2>
+                    <p style="letter-spacing: 1px">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas
+                        odio in, sunt fugit laudantium
+                        illo est, sint quam cum nostrum dolor assumenda aspernatur tempora dolorem ut unde aliquam
+                        beatae porro?
+                    </p>
+                    <a href="/priorities">
+                        <button type="button" class="btn btn-lg" id="issuesIndexButton">Learn More</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid" id="fromCampaignIndexDiv">
+        <div style="text-align: center; margin: 100px 0px 50px 0px">
+            <h4 style="font-family: 'Carrois Gothic', sans-serif; letter-spacing: 3px">THE LATEST</h4>
+            <h1 style="font-family: 'Paytone One' , sans-serif;">From the Campaign</h1>
+        </div>
+        <div class="row" style="width: 70%; margin: auto">
+            <div class="col">
+                <div class="card fromCampaignCardIndex" style="width: 18rem;">
+                    <div class="card-body">
+                        <a href="https://www.facebook.com/MayorCindyLerner/" class="nav-link fa fa-facebook"
+                            style="padding: 12px"></a>
+                        <p class="card-text" id="fromCampaignNewsText">Some quick example text to build on the card
+                            title and make up the bulk of
+                            the
+                            card's content.</p>
+                        <p><span id="fromCampaignNewsTime">X</span> hours ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card fromCampaignCardIndex" style="width: 18rem;">
+                    <div class="card-body">
+                        <a href="https://www.facebook.com/MayorCindyLerner/" class="nav-link fa fa-facebook"
+                            style="padding: 12px"></a>
+                        <p class="card-text" id="fromCampaignFacebookText">Some quick example text to build on the
+                            card
+                            title and make up the bulk of
+                            the
+                            card's content.</p>
+                        <p><span id="fromCampaignFacebookTime">X</span> hours ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card fromCampaignCardIndex" style="width: 18rem;">
+                    <div class="card-body">
+                        <a href="https://twitter.com/CindyforDst7" class="nav-link fa fa-twitter"
+                            style="padding: 12px"></a>
+                        <p class="card-text" id="fromCampaignTwitterText">Some quick example text to build on the
+                            card
+                            title and make up the bulk of
+                            the
+                            card's content.</p>
+                        <p><span id="fromCampaignTwitterTime">X</span> hours ago</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
 
     {{!-- BOTTOM DONATE --}}
     <div class="container-fluid" style="padding: 0px">
-        <div class="bottomDonate">
-            <div class="bottomDonateContent">
+        <div class="bottomInvolve">
+            <div class="bottomInvolveContent">
                 <h5 style="font-family: 'Carrois Gothic', sans-serif;">STAY UPDATED</h5>
                 <h1 style="font-family: 'Paytone One', sans-serif;">Get Involved</h1>
-                <div class="row bottomDonateInputDiv">
+                <div class="row bottomInvolveInputDiv">
                     <div class="col-8" style="padding: 0px">
-                        <input type="email" class="form-control bottomDonateInput" id="bottomDonateEmail"
+                        <input type="email" class="form-control bottomInvolveInput" id="bottomInvolveEmail"
                             aria-describedby="emailHelp" placeholder="Email address" style="border-radius: 0px">
                     </div>
                     <div class="col-4" style="padding: 0px">
-                        <input type="text" class="form-control bottomDonateInput" id="bottomDonateZip" placeholder="Zip"
-                            style="border-radius: 0px">
+                        <input type="text" class="form-control bottomInvolveInput" id="bottomInvolveZip"
+                            placeholder="Zip" style="border-radius: 0px">
                     </div>
                 </div>
-                <button type="button" class="btn btn-lg text-white" id="bottomDonateButton">GET INVOLVED</button>
+                <button type="button" class="btn btn-lg text-white" id="bottomInvolveButton">GET INVOLVED</button>
             </div>
         </div>
     </div>
