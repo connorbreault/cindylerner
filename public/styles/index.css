@@ -242,9 +242,25 @@
 .topContentResponsive{
     width: 95%;
     margin: auto;
-    color: white;
     text-align: center
 }
+
+#topFootbar{
+    font-family: 'Paytone One', sans-serif;
+    height: 80px;
+    float: right;
+    position: relative;
+    top: -30px
+}
+.topFootbarDiv:hover{
+    background: #82c980 !important
+}
+.topFootbarText{
+    letter-spacing: 2px;
+    padding: 25px 75px
+}
+
+
 .meetCindyIndex{
     text-align: center;
     padding: 25px
@@ -255,7 +271,7 @@
     border-radius: 0px;
 }
 #meetCindyIndexButton:hover{
-    background: #a2c1e7
+    background: #82c980
 }
 #onTheIssuesIndexRow{
     background: #0a4c9c;
@@ -276,6 +292,9 @@
     border-radius: 0px;
     width: 100%;
 }
+#issuesIndexButton:hover{
+    background: #82c980
+}
 .fromCampaignCardIndex{
     height: 400px;
     color: white;
@@ -295,6 +314,24 @@
     text-overflow: ellipsis;
     margin: 45px 0px;
     font-family: 'Paytone One', sans-serif;
+}
+
+
+.viewDistrictButton{
+    border: #0f5bb9 2px solid;
+    color: #0f5bb9;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-family: 'Paytone One', sans-serif;
+    padding: 15px 25px;
+    letter-spacing: 2px;
+    background: white;
+    position: relative;
+    top: 15px
+}
+.viewDistrictButton:hover{
+    background: #82c980;
 }
 
 
@@ -352,6 +389,11 @@
     }
     #cardRowIndex{
         width: 70%;
+    }
+    .viewDistrictButton{
+        width: 30%;
+        margin: 0px;
+        left: 125px
     }
 }
 @media (min-width: 576px) and (max-width: 769px) { 
