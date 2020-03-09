@@ -26,6 +26,7 @@ $(document).ready(function () {
                 email: email,
                 zip: zip
             }
+            alert(`${newVolunteer.email} from ${newVolunteer.zip} will be added to our volunteer list`)
             // Add to DB
         }
     }

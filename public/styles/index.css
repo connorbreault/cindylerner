@@ -368,6 +368,43 @@
 }
 
 
+.meetCindyContainer{
+    width: 80%; 
+    margin: auto; 
+    text-align: center;
+}
+.topImgMeetCindy{
+    background: url("/images/monorail.jpg");
+    height: 200px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+.topImgContentMeetCindy{
+    position: relative;
+    top: 115px;
+    left: 100px;
+}
+.meetCindyP{
+    padding: 10px 15px; 
+    font-family: 'Carrois Gothic', sans-serif;
+}
+.quoteBreakMeetCindy{
+    text-align: center;
+    color: #6593ca;
+    background: #dedede;
+    padding: 20px;
+    margin: 25px auto
+}
+.meetCindyImgs{
+    height: 300px;
+    padding: 0px;
+    width: 100%;
+    margin: 15px 0px;
+}
+
+
 @media (min-width: 576px){
     .navbar{
         padding: .5rem 1rem;
@@ -427,6 +464,27 @@
         width: 30%;
         margin: 0px;
         left: 125px
+    }
+
+    .topImgMeetCindy{
+        height: 650px
+    }
+    .meetCindyContainer{
+        width: 60%
+    }
+    .topImgContentMeetCindy{
+        top: 500px;
+        left: 1100px;
+    }
+    .meetCindyP{
+        padding: 10px 75px;
+    }
+    .quoteBreakMeetCindy{
+        padding: 50px 150px
+    }
+    .meetCindyImgs{
+        height: 400px;
+        padding: 15px;
     }
 }
 @media (min-width: 576px) and (max-width: 769px) { 
