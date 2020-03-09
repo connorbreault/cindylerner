@@ -1,7 +1,7 @@
 <div style="overflow-x: hidden">
     <a href="/donate">
         <div class="chipInDiv">
-            <h6 id="chipInText" class="d-none d-lg-block">CHIP IN $5 TO SUPPORT CINDY LERNER &rarr;</h6>
+            <p id="chipInText" class="d-none d-lg-block">CHIP IN $5 TO SUPPORT CINDY LERNER &rarr;</p>
         </div>
     </a>
     <nav class="navbar navbar-expand-lg navbar-light sticky-top">
@@ -19,11 +19,11 @@
                     <a class="nav-link" href="/meet_Cindy">Meet Cindy</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown" href="/priorities" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link dropdown" href="/priorities" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
                         Priorities
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <div class="dropdown-menu">
                         <a class="dropdown-item" href="/traffic">Traffic</a>
                         <a class="dropdown-item" href="/flooding">Flooding</a>
                         <a class="dropdown-item" href="/water">Water</a>
@@ -31,11 +31,11 @@
                     </div>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown" href="/in_the_media" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link dropdown" href="/in_the_media" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
                         In the Media
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <div class="dropdown-menu">
                         <a class="dropdown-item" href="/south_florida_leadership">South Florida's Leaders</a>
                         <a class="dropdown-item" href="/exalcaldesa">Exalcaldesa de Pinecrest</a>
                         <a class="dropdown-item" href="/mammoth_funding">Mammoth Fundraising Lead</a>
@@ -57,12 +57,11 @@
                 </li>
             </ul>
         </div>
-        <a href="/donate"><button type="button" class="btn btn-lg text-white" id="navDonate">Donate</button></a>
+        <a role="button" class="btn btn-lg text-white" id="navDonate" href="/donate">Donate</a>
     </nav>
 
     <!-- Nav Modal -->
-    <div class="modal fade" id="navModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
+    <div class="modal fade" id="navModal" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content" id="navModalContent">
                 <div class="modal-body">
@@ -74,41 +73,39 @@
                     <br>
                     <h3><a class="navModalLink text-white" href="/meet_Cindy">Meet Cindy</a></h3>
                     <br>
-                    <div class="dropdown">
-                        <h3><a class="navModalLink dropdown-toggle text-white" href="/priorities" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Priorities
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="/traffic">Traffic</a>
-                                <a class="dropdown-item" href="/flooding">Flooding</a>
-                                <a class="dropdown-item" href="/water">Water</a>
-                                <a class="dropdown-item" href="/leadership">Leadership</a>
-                            </div>
-                        </h3>
+                    <div class="dropdown" style="font-size: 28px">
+
+                        <a class="navModalLink dropdown-toggle text-white" href="/priorities" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Priorities
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="/traffic">Traffic</a>
+                            <a class="dropdown-item" href="/flooding">Flooding</a>
+                            <a class="dropdown-item" href="/water">Water</a>
+                            <a class="dropdown-item" href="/leadership">Leadership</a>
+                        </div>
                     </div>
                     <br>
-                    <div class="dropdown">
-                        <h3><a class="navModalLink dropdown-toggle text-white" href="/in_the_media" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                In the Media
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="/south_florida_leadership">South Florida's
-                                    Leaders</a>
-                                <a class="dropdown-item" href="/exalcaldesa">Exalcaldesa de Pinecrest</a>
-                                <a class="dropdown-item" href="/mammoth_funding">Mammoth Fundraising Lead</a>
-                                <a class="dropdown-item" href="/press_release">Press Release</a>
-                            </div>
-                        </h3>
+                    <div class="dropdown" style="font-size: 28px">
+                        <a class="navModalLink dropdown-toggle text-white" href="/in_the_media" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            In the Media
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="/south_florida_leadership">South Florida's
+                                Leaders</a>
+                            <a class="dropdown-item" href="/exalcaldesa">Exalcaldesa de Pinecrest</a>
+                            <a class="dropdown-item" href="/mammoth_funding">Mammoth Fundraising Lead</a>
+                            <a class="dropdown-item" href="/press_release">Press Release</a>
+                        </div>
                     </div>
                     <br>
                     <h3><a class="navModalLink text-white" href="/endorsements">Endorsements</a></h3>
                     <br>
                     <h3><a class="navModalLink text-white" href="/get_involved">Get Involved</a></h3>
                     <br>
-                    <a href="/donate"><button type="button" class="btn btn-lg text-white"
-                            id="donateMain">Donate</button></a>
+                    <a role="button" class="btn btn-lg text-white" id="donateMain" href="/donate">Donate</a>
                     <br>
                     <br>
                     <div class="row">
@@ -124,7 +121,11 @@
         </div>
     </div>
 
-    <h1>Traffic</h1>
+
+
+    {{!-- BOILERPLATE BREAK --}}
+    <h1>traffic</h1>
+
 
 
     {{!-- BOTTOM DONATE --}}
@@ -136,7 +137,7 @@
                 <div class="row bottomInvolveInputDiv">
                     <div class="col-8" style="padding: 0px">
                         <input type="email" class="form-control bottomInvolveInput" id="bottomInvolveEmail"
-                            aria-describedby="emailHelp" placeholder="Email address" style="border-radius: 0px">
+                            placeholder="Email address" style="border-radius: 0px">
                     </div>
                     <div class="col-4" style="padding: 0px">
                         <input type="text" class="form-control bottomInvolveInput" id="bottomInvolveZip"
@@ -156,11 +157,9 @@
             <img src="images/nav/CL_Logo.jpg" alt="Cindy Lerner Logo" style="border-radius: 10px">
             <br>
             <div style="margin: 50px auto">
-                <a href="/donate"><button type="button"
-                        class="btn btn-lg text-white leftFooterButtons">Contribute</button></a>
+                <a role="button" class="btn btn-lg text-white leftFooterButtons" href="/donate">Contribute</a>
                 <br>
-                <a href="/volunteer"><button type="button"
-                        class="btn btn-lg text-white leftFooterButtons">Volunteer</button></a>
+                <a role="button" class="btn btn-lg text-white leftFooterButtons" href="/volunteer">Volunteer</a>
             </div>
             <div class="row SocialMediaRow">
                 <div class="col"><a href="https://www.facebook.com/MayorCindyLerner/" class="fa sa fa-facebook"></a>
@@ -178,11 +177,11 @@
                 </div>
                 <div class="col"><a href="/meet_Cindy" class="footerNavbarLinks">Meet Cindy</a></div>
                 <div class="col">
-                    <a class="dropdown footerNavbarLinks" href="/priorities" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="dropdown footerNavbarLinks" href="/priorities" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
                         Priorities
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <div class="dropdown-menu">
                         <a class="dropdown-item" href="/traffic">Traffic</a>
                         <a class="dropdown-item" href="/flooding">Flooding</a>
                         <a class="dropdown-item" href="/water">Water</a>
@@ -199,8 +198,8 @@
                 <p>305-992-3433</p>
             </div>
             <div class="row rightFooterButtons">
-                <div class="col"><a href="/privacy_policy" style="padding: auto 5px">Privacy Policy</a></div>
-                <div class="col"><a href="/in_the_media" style="padding: auto 5px">In the Media</a></div>
+                <div class="col"><a href="/privacy_policy" style="padding: 0px 5px">Privacy Policy</a></div>
+                <div class="col"><a href="/in_the_media" style="padding: 0px 5px">In the Media</a></div>
             </div>
             <div>
                 <p class="paidForBy">PAID FOR BY FRIENDS OF CINDY LERNER</p>
