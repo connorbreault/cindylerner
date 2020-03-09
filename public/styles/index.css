@@ -40,7 +40,8 @@
     font-family: 'Open Sans Condensed', sans-serif;
     line-height: 25px;
     font-size: 11px;
-    letter-spacing: 4px
+    letter-spacing: 4px;
+    margin: 0px
 }
 .navbar{
     font-family: 'Paytone One', sans-serif;
@@ -246,11 +247,12 @@
 
 /* INDEX PAGE */
 .desktopTopIndex{
-    background: url("/images/nav/CL_photo.jpg");
-    height: 600px;
+    background: url("/images/Beach.jpg");
+    height: 700px;
     width: 100%;
     background-repeat: no-repeat;
-    background-size: 100%
+    background-size: 100%;
+    background-position: bottom
 }
 .desktopTopContentIndex{
     width: 25%;
@@ -259,11 +261,12 @@
     color: white
 }
 .topImgResponsiveIndex{
-    background: url("/images/nav/CL_photo.jpg");
+    background: url("/images/BeachCloseup.jpg");
     height: 200px;
     width: 100%;
     background-repeat: no-repeat;
-    background-size: 100%
+    background-size: 100%;
+    background-position: center 
 }
 .topContentResponsiveIndexDiv{
     background: #0a4c9c;
