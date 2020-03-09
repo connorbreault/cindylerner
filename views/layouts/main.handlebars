@@ -31,11 +31,16 @@
     <title>Cindy Lerner for County Commission</title>
 
     <script src="https://code.jquery.com/jquery.js"></script>
-
+    {{!-- <script async src="https://cdn.ampproject.org/v0.js"></script> --}}
 </head>
 
 <body>
-    {{{ body }}}
+    <div style="overflow-x: hidden">
+        {{> navbar}}
+        {{{ body }}}
+        {{> footer}}
+    </div>
+
     <script src="/js/logic.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
@@ -46,22 +51,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
-    <script>
-        // Your web app's Firebase configuration
-        var firebaseConfig = {
-            apiKey: "AIzaSyDkGtXFX4dL6kGsRwSzWoo6FMXQAQz34Eg",
-            authDomain: "clvolunteers.firebaseapp.com",
-            databaseURL: "https://clvolunteers.firebaseio.com",
-            projectId: "clvolunteers",
-            storageBucket: "clvolunteers.appspot.com",
-            messagingSenderId: "497629213404",
-            appId: "1:497629213404:web:6d9abd11d95d07c4373a19",
-            measurementId: "G-QME88JJQBZ"
-        };
-        // Initialize Firebase
-        firebase.initializeApp(firebaseConfig);
-        firebase.analytics();
-    </script>
 </body>
 
 </html>
